@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/ryanyu/.nvm/v0.10.26/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '/Users/ryanyu/Desktop/uber_node/streams/cache.js' ]
+2 info using npm@2.8.2
+3 info using node@v0.10.26
+4 verbose install initial load of /Users/ryanyu/Desktop/uber_node/shopping-list/package.json
+5 warn package.json shopping-list@0.0.0 No repository field.
+6 warn package.json shopping-list@0.0.0 No README data
+7 verbose installManyTop reading scoped package data from /Users/ryanyu/Desktop/uber_node/shopping-list/node_modules/node-static/package.json
+8 verbose readDependencies loading dependencies from /Users/ryanyu/Desktop/uber_node/shopping-list/package.json
+9 silly cache add args [ '/Users/ryanyu/Desktop/uber_node/streams/cache.js', null ]
+10 verbose cache add spec /Users/ryanyu/Desktop/uber_node/streams/cache.js
+11 silly cache add parsed spec { raw: '/Users/ryanyu/Desktop/uber_node/streams/cache.js',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: '/Users/ryanyu/Desktop/uber_node/streams/cache.js',
+11 silly cache add   spec: '/Users/ryanyu/Desktop/uber_node/streams/cache.js',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) de41b195958f10c98ebbe18f298626693965bb4d
+13 verbose addTmpTarball /Users/ryanyu/Desktop/uber_node/streams/cache.js not in flight; adding
+14 verbose addTmpTarball validating metadata from /Users/ryanyu/Desktop/uber_node/streams/cache.js
+15 verbose tar unpack /Users/ryanyu/Desktop/uber_node/streams/cache.js
+16 verbose tar unpacking to /var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3
+17 silly gentlyRm /var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3 is being purged
+18 verbose gentlyRm don't care about contents; nuking /var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3
+19 silly gunzTarPerm modes [ '755', '644' ]
+20 error not a package /Users/ryanyu/Desktop/uber_node/streams/cache.js
+21 error addLocal Could not install /Users/ryanyu/Desktop/uber_node/streams/cache.js
+22 verbose stack Error: ENOENT, open '/var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3/package.json'
+23 verbose cwd /Users/ryanyu/Desktop/uber_node/shopping-list
+24 error Darwin 14.4.0
+25 error argv "node" "/Users/ryanyu/.nvm/v0.10.26/bin/npm" "install" "--save" "/Users/ryanyu/Desktop/uber_node/streams/cache.js"
+26 error node v0.10.26
+27 error npm  v2.8.2
+28 error path /var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3/package.json
+29 error code ENOENT
+30 error errno 34
+31 error enoent ENOENT, open '/var/folders/6_/gxdc7mlj06d8qrq6x1wn4cd40000gn/T/npm-69427-2fbbf02d/unpack-8cd040e98ef3/package.json'
+31 error enoent This is most likely not a problem with npm itself
+31 error enoent and is related to npm not being able to find a file.
+32 verbose exit [ 34, true ]

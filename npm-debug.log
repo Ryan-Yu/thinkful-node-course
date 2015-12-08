@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/Users/ryanyu/.nvm/v0.10.26/bin/npm', 'init' ]
+2 info using npm@2.8.2
+3 info using node@v0.10.26
+4 silly package data undefined
+5 info init written successfully
+6 verbose type non_object_property_call
+7 verbose stack TypeError: Cannot call method 'join' of undefined
+7 verbose stack     at exports.name (/Users/ryanyu/.nvm/v0.10.26/lib/node_modules/npm/node_modules/init-package-json/default-input.js:51:45)
+7 verbose stack     at PromZard.<anonymous> (/Users/ryanyu/.nvm/v0.10.26/lib/node_modules/npm/node_modules/init-package-json/node_modules/promzard/promzard.js:226:19)
+7 verbose stack     at Interface.onLine (/Users/ryanyu/.nvm/v0.10.26/lib/node_modules/npm/node_modules/read/lib/read.js:111:5)
+7 verbose stack     at Interface.EventEmitter.emit (events.js:95:17)
+7 verbose stack     at Interface._onLine (readline.js:202:10)
+7 verbose stack     at Interface._line (readline.js:531:8)
+7 verbose stack     at Interface._ttyWrite (readline.js:760:14)
+7 verbose stack     at ReadStream.onkeypress (readline.js:99:10)
+7 verbose stack     at ReadStream.EventEmitter.emit (events.js:98:17)
+7 verbose stack     at emitKey (readline.js:1095:12)
+8 verbose cwd /Users/ryanyu/Desktop/uber_node
+9 error Darwin 14.4.0
+10 error argv "node" "/Users/ryanyu/.nvm/v0.10.26/bin/npm" "init"
+11 error node v0.10.26
+12 error npm  v2.8.2
+13 error Cannot call method 'join' of undefined
+14 error If you need help, you may report this error at:
+14 error     <https://github.com/npm/npm/issues>
+15 verbose exit [ 1, true ]

@@ -1,0 +1,11 @@
+{
+  "name": "musicians",
+  "version": "0.0.0",
+  "description": "Musicians",
+  "main": "musicians.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Yu",
+  "license": "None"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "sleater",
+  "version": "0.0.0",
+  "description": "Sleater",
+  "main": "sleater.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Yu",
+  "license": "None",
+  "dependencies": {
+    "hello_server": "file:../hello_server",
+    "musicians": "file:../musicians"
+  }
+}
